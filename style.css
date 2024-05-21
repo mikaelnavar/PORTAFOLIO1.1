@@ -217,6 +217,100 @@ body {
     flex: 1;
 }
 
+.skills-img img{
+    width: 50px;
+    height: auto;
+    flex: none;
+    margin-top: 10px;
+    align-self: center;
+}
+
+/* Estilos de skills li y hobbies */
+.skills-name, .hobbies-name{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+/* Hobbies */
+.section-hobbies{
+    display: flex;
+    padding: 20px;
+    background: var(--fondo2);
+    align-items: center;
+    flex-direction: column;
+}
+
+.hobbies-container{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hobbies-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.hobbies-img img{
+    width: 65px;
+    height: auto;
+    flex: none;
+}
+
+/* style Formacion Academica */
+.section-education{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    background: var(--fondo);
+    align-items: center;
+    flex-direction: column;
+}
+
+.education-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: 25px;
+}
+
+.education-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.8;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
 
 
 
