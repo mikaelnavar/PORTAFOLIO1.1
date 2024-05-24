@@ -4,6 +4,8 @@
     --fondo:#F5F5F5;
     --fondo2:#EAF2FD;
     --navtransition: #cdc7c7;
+    --btngit: #1d66cc;
+    --btndemo: #706d6d;
 }
 
 body {
@@ -303,6 +305,141 @@ body {
     opacity: 0.8;
     flex: 1;
 }
+
+.education-item-img img{
+    width: 110px;
+    height: 110px;
+    flex: none;
+    margin-top: 10px;
+}
+
+.education-item-title{
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+    margin-top: 15px;
+}
+
+.education-item-subtitle{
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+/* EXPERIENCIA */
+.section-experience{
+    display: flex;
+    padding: 20px;
+    background: var(--fondo);
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience-box{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+   justify-content: center;
+}
+
+.experience-box img{
+    width: 35%;
+    height: auto;
+    margin: 15px;
+}
+
+experience-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/* ESTILOS PARA EL JUEGO NUMERO SECRETO */
+
+.experience-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    order: -1;
+}
+
+/* style title section experience */
+.experience-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.experience-text {
+    font-size: 17px;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* BUTTON STYLE */
+
+.experience-description {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.experience-repo {
+    display: felx;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.experience-demo {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Muestra Github */
+
+.experience-button-repo {
+    height: 60px;
+    width: 120px;
+    background-color: var(--btngit);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
